@@ -1,7 +1,7 @@
 function Body() {
   return (
     <div>
-      <body></body>
+      <main></main>
     </div>
   );
 }

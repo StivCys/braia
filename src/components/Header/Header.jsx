@@ -10,9 +10,15 @@ function Header() {
         </div>
         <div className="list">
           <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>CONTACT</li>
+            <a>
+              <li>HOME</li>
+            </a>
+            <a>
+              <li>ABOUT</li>
+            </a>
+            <a>
+              <li>CONTACT</li>
+            </a>
           </ul>
         </div>
         <div className="mail">

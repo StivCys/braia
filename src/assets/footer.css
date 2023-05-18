@@ -1,0 +1,27 @@
+footer p {
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.social-list svg {
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+}
+
+.footer-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright p {
+  font-size: 13px;
+  margin-right: 60px;
+}
