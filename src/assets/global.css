@@ -35,6 +35,15 @@ p {
 
 main {
   width: 100%;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 180px);
   display: flex;
+}
+
+h1{
+  color: #ededed;
+}
+
+.link-decoration{
+  text-decoration: none;
+  color: var(--color-text-light);
 }

@@ -1,24 +1,25 @@
 import "../../assets/header.css";
 import Icon from "../../img/icon_andromeda.png";
 import Email from "../../img/email.png";
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
-    <div>
       <div className="header">
         <div className="icon">
           <img src={Icon} alt="Icon" />
         </div>
         <div className="list">
           <ul>
-            <a>
+            <Link to='/' > 
               <li>HOME</li>
-            </a>
-            <a>
+            </Link>
+            <Link to='/about' >
               <li>ABOUT</li>
-            </a>
-            <a>
+            </Link>
+            <Link to='/contact' >
               <li>CONTACT</li>
-            </a>
+            </Link>
           </ul>
         </div>
         <div className="mail">
@@ -27,7 +28,6 @@ function Header() {
           </a>
         </div>
       </div>
-    </div>
   );
 }
 
